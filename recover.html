@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recuperação de Conta Hotmail - Microsoft</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+            line-height: 1.6;
+            background-color: #f5f5f5;
+        }
+        
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        
+        .microsoft-logo {
+            width: 120px;
+            height: auto;
+        }
+        
+        .card {
+            background-color: white;
+            border-radius: 8px;
+            padding: 25px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        
+        h1 {
+            color: #0078D7;
+            text-align: center;
+            font-size: 22px;
+            margin-bottom: 20px;
+        }
+        
+        .btn-microsoft {
+            background-color: #0078D7;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            width: 100%;
+            font-size: 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 20px 0;
+            font-weight: 600;
+            transition: background-color 0.3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .btn-microsoft:hover {
+            background-color: #106EBE;
+        }
+        
+        .btn-microsoft img {
+            margin-right: 10px;
+            width: 20px;
+        }
+        
+        .footer {
+            margin-top: 30px;
+            font-size: 12px;
+            text-align: center;
+            color: #666;
+        }
+        
+        .language-selector {
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        .language-selector select {
+            padding: 8px;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Microsoft_logo_%282012%29.svg" alt="Microsoft" class="microsoft-logo">
+    </div>
+    
+    <div class="card">
+        <h1>Recuperação de Conta Microsoft</h1>
+        <p>Para começar o processo de recuperação da sua conta Hotmail/Outlook, clique no botão abaixo:</p>
+        
+        <button class="btn-microsoft" onclick="window.location.href='recovery.html'">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/01/Microsoft_Office_logo_%282014%E2%80%932019%29.svg" alt="">
+            Iniciar Recuperação
+        </button>
+        
+        <p style="text-align: center;">Este serviço é fornecido pela Microsoft Corporation para ajudar usuários a recuperarem o acesso às suas contas.</p>
+    </div>
+    
+    <div class="language-selector">
+        <select>
+            <option>Português (Brasil)</option>
+            <option>English (United States)</option>
+            <option>Español (España)</option>
+        </select>
+    </div>
+    
+    <div class="footer">
+        © 2025 Microsoft Corporation. Todos os direitos reservados.<br>
+        <a href="#" style="color: #0078D7;">Termos de Uso</a> | 
+        <a href="#" style="color: #0078D7;">Privacidade</a> | 
+        <a href="#" style="color: #0078D7;">Ajuda</a>
+    </div>
+</body>
+</html>
